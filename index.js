@@ -9,7 +9,7 @@ form.addEventListener('submit', async (event) => {
   event.preventDefault();
   const query = input.value;
   const apiKey = 'c7d0cbac8b5a8f225d5af4fa74509c3a'; 
-  const apiUrl = `https://api.themoviedb.org/3/movie/top_rated?api_key=${apiKey}&query=${query}`;
+  const apiUrl = `https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&query=${query}`;
 
   try {
     const response = await fetch(apiUrl);
