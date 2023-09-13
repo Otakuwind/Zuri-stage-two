@@ -147,7 +147,7 @@ h1{
 
 /*The footer*/
 footer{
-    background-color: #A01D1E;
+    background-color: black;
     font-weight: 600;
     margin-top: 1rem;
     padding: 1rem 1.1rem;
@@ -165,7 +165,8 @@ footer{
         font-size: 1.7rem;
     }
     .search-btn input{
-        width: 50vh;
+        width: 30vh;
+        margin-left: 40px;
     }
     .sm-search{
         display: none;
