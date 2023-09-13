@@ -156,7 +156,7 @@ footer{
     display: flex;
     justify-content: space-between;
 }
-@media screen and (min-width: 750px) {
+@media screen and (max-width: 750px) {
     .header{
         width: 90%;
         padding: 1rem 0;
@@ -174,6 +174,26 @@ footer{
         padding: .8rem .5rem;
         font-size: 1rem;
     }
+.menu{
+    display: none;
+}
+
+.movieheader{
+    font-size: 1.2rem;
+    color: hsla(200, 100%, 95%, 1);
+    display: flex;
+     display: none;
+}
+
+.movieheader p{
+    font-size: .2rem;
+    font-weight: 100;
+    margin-left: 30px;
+    color: white
+  
+}
+
+
 }
 
 
